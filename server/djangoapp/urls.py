@@ -19,7 +19,7 @@ urlpatterns = [
     path('get_cars/', views.get_cars, name='get_cars'),
 
     # path for dealer reviews view
-
+    path(route='get_dealers/', view=views.get_dealerships, name='get_dealers'),
     # path for add a review view
     path('add_review/', views.add_review, name='add_review'),
 
